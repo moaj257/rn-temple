@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rn-temple/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/rn-temple/static/js/main.47e8baba.chunk.js",
+    "main.js.map": "/rn-temple/static/js/main.47e8baba.chunk.js.map",
+    "runtime-main.js": "/rn-temple/static/js/runtime-main.6043428f.js",
+    "runtime-main.js.map": "/rn-temple/static/js/runtime-main.6043428f.js.map",
+    "static/js/2.48cd88ce.chunk.js": "/rn-temple/static/js/2.48cd88ce.chunk.js",
+    "static/js/2.48cd88ce.chunk.js.map": "/rn-temple/static/js/2.48cd88ce.chunk.js.map",
+    "static/js/3.f6fbd245.chunk.js": "/rn-temple/static/js/3.f6fbd245.chunk.js",
+    "static/js/3.f6fbd245.chunk.js.map": "/rn-temple/static/js/3.f6fbd245.chunk.js.map",
+    "index.html": "/rn-temple/index.html",
+    "static/css/main.7d180cbf.chunk.css.map": "/rn-temple/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.48cd88ce.chunk.js.LICENSE.txt": "/rn-temple/static/js/2.48cd88ce.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/rn-temple/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6043428f.js",
+    "static/js/2.48cd88ce.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.47e8baba.chunk.js"
+  ]
+}
