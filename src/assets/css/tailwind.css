@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@300&family=Open+Sans:wght@400;600&display=swap');
+.lora{font-family: 'Lora', serif;}
+.montserrat{font-family: 'Montserrat', sans-serif;}
+.opensans{font-family: 'Open Sans', sans-serif;} */
