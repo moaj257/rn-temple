@@ -15,7 +15,7 @@ export default class Navigation extends React.Component {
                 </div>
               </div>
               <div className="flex-shrink-0 flex items-center relative">
-                <div className="relative text-linen font-montserrat z-20 tracking-wide text-3xl font-bold">அங்காள பரமேஸ்வரி</div>
+                <div className="relative text-linen font-montserrat z-20 tracking-normal md:tracking-wide text-3xl font-bold">அங்காள பரமேஸ்வரி</div>
                 <div className="absolute text-monalisa text-7xl z-10 font-serif left-36 font-extrabold">ॐ</div>
               </div>
               <div className="hidden sm:block sm:ml-6">
