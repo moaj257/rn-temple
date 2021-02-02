@@ -92,7 +92,7 @@ export default class DonationSection extends React.Component {
                     <div className="text-finn font-serif text-lg font-normal">நான் சமர்ப்பித்த தரவு சேகரிக்கப்பட்டு சேமிக்கப்படுகிறது என்பதை ஒப்புக்கொள்கிறேன்.</div>
                   </div>
                   <div className="flex justify-center items-center flex-row mt-5">
-                    <button className="py-2 px-8 bg-cinnabar hover:bg-vodoo text-white rounded-full text-xl font-bold text-center">இப்போது நன்கொடை செய்யுங்கள்</button>
+                    <button className="py-3 px-8 bg-cinnabar hover:bg-vodoo text-white rounded-full text-xl font-bold text-center">இப்போது நன்கொடை செய்யுங்கள்</button>
                   </div>
                 </div>
               </div>

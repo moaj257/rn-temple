@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
+      transparent: "transparent",
       white: "#ffffff",
       vodoo: "#44233B",
       finn: "#694c5c",
