@@ -11,6 +11,8 @@ import TwoImg from "./assets/images/two.jpg";
 import ThreeImg from "./assets/images/three.jpg";
 import FourImg from "./assets/images/four.jpg";
 import DonationSection from "./components/DonationSection";
+import { SubscribeSection } from "./components/SubscribeSection";
+import { FooterSection } from "./components/FooterSection";
 
 class Banner extends React.Component {
   render() {
@@ -145,6 +147,8 @@ function App() {
       <WelcomeSection />
       <EventSection />
       <DonationSection />
+      <SubscribeSection />
+      <FooterSection />
     </div>
   );
 }
