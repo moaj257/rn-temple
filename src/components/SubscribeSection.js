@@ -15,7 +15,7 @@ export class SubscribeSection extends React.Component {
           <div className="w-10/12 flex justify-center items-center flex-col mx-auto">
             <div className="text-monalisa font-serif text-base font-bold tracking-normal md:tracking-widest">குழுசேரவும்</div>
             <div className="text-linen font-sans text-3xl md:text-4xl font-bold text-center">நிலையான மகிழ்ச்சியாக இருக்க கற்றுக்கொள்ளுங்கள்!</div>
-            <div className="text-coldturkey text-2xl text-center my-10 mx-4 md:mx-8 font-serif font-normal">மகிழ்ச்சி திட்டத்தில் சேரவும். அமைதியான மனதை அனுபவிக்கவும், பதட்டத்தை குறைக்கவும், ஆற்றல் அளவுகள் மற்றும் நிலையான மகிழ்ச்சியை தினமும் அனுபவிக்கவும்!</div>
+            <div className="text-coldturkey text-xl md:text-2xl md:text-center my-10 mx-4 md:mx-8 font-serif font-normal">மகிழ்ச்சி திட்டத்தில் சேரவும். அமைதியான மனதை அனுபவிக்கவும், பதட்டத்தை குறைக்கவும், ஆற்றல் அளவுகள் மற்றும் நிலையான மகிழ்ச்சியை தினமும் அனுபவிக்கவும்!</div>
             <div className="flex flex-col md:flex-row justify-between items-center w-full">
               <DInput isTrans={true} type="text" name="name" placeholder="பெயர்" onChange={this.handleChange} value={name} clasname="mr-0 md:mr-5 mt-2 md:mt-0 w-full" />
               <DInput isTrans={true} type="text" name="mobile" placeholder="கைபேசி எண்" onChange={this.handleChange} value={mobile} clasname="mr-0 md:mr-5 mt-2 md:mt-0 w-full" />

@@ -9,7 +9,7 @@ export class FooterSection extends React.Component {
           <div className="flex flex-col md:flex-row items-center justify-start md:justify-center sm:items-stretch">
             <div className="hidden sm:block sm:mr-6">
               <div className="flex space-x-4">
-                <a href="#" className="bg-red-900 text-linen font-sans px-3 py-2 rounded-md text-base font-medium">முகப்பு பக்கம்</a>
+                <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">முகப்பு பக்கம்</a>
                 <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">எங்களை பற்றி</a>
                 <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">நிகழ்ச்சிகள்</a>
               </div>
@@ -20,7 +20,7 @@ export class FooterSection extends React.Component {
             </div>
             <div className="block md:hidden sm:mr-6 w-full px-4 md:px-0 mt-6 md:mt-0">
               <div className="flex flex-col md:flex-row w-full md:space-x-4">
-                <a href="#" className="bg-red-900 text-linen font-sans px-3 py-2 rounded-md text-base font-medium">முகப்பு பக்கம்</a>
+                <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">முகப்பு பக்கம்</a>
                 <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">எங்களை பற்றி</a>
                 <a href="#" className="text-monalisa font-sans hover:text-linen px-3 py-2 rounded-md text-base font-medium">நிகழ்ச்சிகள்</a>
               </div>
@@ -33,6 +33,9 @@ export class FooterSection extends React.Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="pt-5 items-center justify-center flex">
+          <div className="text-linen font-serif hover:text-linen px-3 py-2 rounded-md text-md font-medium">CopyRigts &copy; 2021</div>
         </div>
       </div>
     </div>

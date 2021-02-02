@@ -38,7 +38,7 @@ class Card extends React.Component {
   render() {
     const {title, desc, logo} = this.props;
     return (
-      <a href="#" className="w-full md:w-4/12 mx-0 md:mx-8 mt-5 md:mt-0 py-20 px-8 bg-white text-center text-vodoo hover:text-cinnabar transition-all duration-300 ease-in-out hover:scale-125 rounded-lg">
+      <a href="#" className="shadow-2xl hover:shadow-3xl w-full xl:w-4/12 mx-0 xl:mx-8 mt-10 xl:mt-0 py-20 px-8 bg-white text-center text-vodoo hover:text-cinnabar transition-all duration-300 ease-in-out hover:scale-125 rounded-lg">
         <div className="flex items-center justify-center">
           <img src={logo} className="h-32 w-32" />
         </div>
@@ -52,7 +52,7 @@ class Card extends React.Component {
 class WelcomeCards extends React.Component {
   render() {
     return (
-      <div className="w-full mt-24 flex flex-col md:flex-row">
+      <div className="w-full mt-24 flex flex-col xl:flex-row">
         <Card title="ஆசிரமம்" logo={TempleImg} desc="மலைகளின் பச்சை பள்ளத்தாக்குகளில் ஒரு ஆன்மீக பரம்பரை, அங்கு நீங்கள் இரவில் மில்லியன் கணக்கான நட்சத்திரங்களைக் காணலாம்." />
         <Card title="ஈடுபடுங்கள்" logo={SupportImg} desc="எங்கள் சமூகம் ஒரு உள்ளூர் அடிப்படையில் மனிதாபிமான ஆதரவு தேவைப்படும் உள்ளூர் மக்களின் வாழ்க்கையில் தீவிரமாக ஈடுபட்டுள்ளது." />
         <Card title="நன்கொடை" logo={HeartImg} desc="நன்கொடை திட்டங்களுக்கு உங்கள் பங்களிப்பை நாங்கள் பாராட்டுகிறோம், நாங்கள் பெறக்கூடிய எந்த உதவியையும் மகிழ்ச்சியுடன் ஏற்றுக்கொள்வோம்." />
@@ -92,7 +92,7 @@ class EventCard extends React.Component {
   render() {
     const {title, image, date, month, time} = this.props;
     return (
-      <div className="w-full flex flex-col md:flex-row rounded-lg overflow-hidden my-4 bg-white">
+      <a href="#" className="shadow-xl hover:shadow-3xl w-full flex flex-col md:flex-row rounded-lg overflow-hidden my-4 bg-white">
         <div className="w-full md:w-1/6 h-48 md:h-32 relative bg-cover bg-center" style={{backgroundImage: `linear-gradient(transparent, rgb(68, 35, 59, 0.25)), url(${image})`}}>
           <div className="h-48 md:h-32 w-full flex items-center justify-center">
             <div className="bg-linen rounded-full text-center h-20 w-20 right-20 md:-right-10 top-36 md:top-6 text-cinnabar font-extrabold text-lg">
@@ -101,14 +101,14 @@ class EventCard extends React.Component {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-4/6 flex flex-col justify-center items-center md:items-start pb-4 pt-4">
-          <div className="ml-0 px-4 md:px-0 md:ml-16 text-center md:text-left text-vodoo text-2xl font-bold">{title}</div>
-          <div className="ml-0 px-4 md:px-0 md:ml-16 text-monalisa text-xl font-semibold mt-2">{time}</div>
+        <div className="w-full md:w-4/6 flex flex-col justify-center items-center md:items-start pb-4 pt-4 md:truncate">
+          <div className="ml-0 px-4 md:px-0 md:pl-4 w-full text-center md:text-left text-vodoo text-2xl font-bold md:truncate">{title}</div>
+          <div className="ml-0 px-4 md:px-0 md:pl-4 text-monalisa text-xl font-semibold mt-2">{time}</div>
         </div>
         <div className="flex w-full md:w-1/6 justify-center md:justify-end items-center mb-5 md:mb-0">
           <a href="#" className="mx-4 py-2 px-4 bg-cinnabar hover:bg-vodoo text-white h-12 w-64 rounded-full text-xl font-bold text-center">தகவல்</a>
         </div>
-      </div>
+      </a>
     )
   }
 }

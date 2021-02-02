@@ -1,10 +1,14 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./src/**/*.js'],
-  },
+  purge: {},
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     colors: {
       transparent: "transparent",
       white: "#ffffff",
@@ -26,10 +30,19 @@ module.exports = {
       serif: ['Baloo Thambi 2', 'cursive'],
       montserrat: ['Montserrat', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'xl': '0 0px 30px -12px #DB4242',
+        '2xl': '0 0px 40px -12px #DB4242',
+        '3xl': '0 0px 50px -12px #DB4242',
+      }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
+  corePlugins: {
+    textOverflow: true,
+  }
 }

@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+*{animation: ease-in-out; animation-duration: 300ms; transition: ease-in-out; transition-duration: 300ms;}
+
 /* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@300&family=Open+Sans:wght@400;600&display=swap');
 .lora{font-family: 'Lora', serif;}
 .montserrat{font-family: 'Montserrat', sans-serif;}

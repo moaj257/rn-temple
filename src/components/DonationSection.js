@@ -5,7 +5,7 @@ class DonationBtn extends React.Component {
   render() {
     const {text, handleDonation, ind, isClicked} = this.props;
     return (
-      <button className={`mr-2 mb-2 md:mb-0 ${isClicked ? 'bg-vodoo text-white' : 'bg-champagnepink text-vodoo'} px-3 py-3 rounded-full font-bold text-xl w-24 hover:text-white focus:text-white hover:bg-vodoo focus:bg-vodoo`} onClick={e => handleDonation(e, ind)}>{text}</button>
+      <button className={`mr-2 mb-2 lg:mb-0 ${isClicked ? 'bg-vodoo text-white' : 'bg-champagnepink text-vodoo'} px-3 py-3 rounded-full font-bold text-xl w-24 hover:text-white focus:text-white hover:bg-vodoo focus:bg-vodoo`} onClick={e => handleDonation(e, ind)}>{text}</button>
     );
   }
 }
@@ -29,7 +29,7 @@ export default class DonationSection extends React.Component {
     let isClicked = [false, false, false, false];
     isClicked[ind] = true;
     const {donationField} =this.refs;
-    const text = e.target.innerText.replace(/₹/g, '');
+    const text = e.target.innerText.replace(/₹/g, '').replace(/\s/g, '');
     if(text === "Custom") {
       this.setState({donationAmount: '', isClicked});
       donationField.focus();
