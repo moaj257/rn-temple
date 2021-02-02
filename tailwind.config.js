@@ -14,6 +14,8 @@ module.exports = {
       tapestry: "#A76B7C", //border
       eunry: "#cba7a7", // input color,
       canonpink: "#8c4e5d", // input bg
+      champagnepink: "#F6E0CE",
+      mountbattenpink: "#96818D"
     }, 
     fontFamily: {
       sans: ['Mukta Malar', 'sans-serif'],

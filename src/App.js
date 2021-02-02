@@ -10,6 +10,7 @@ import OneImg from "./assets/images/one.jpg";
 import TwoImg from "./assets/images/two.jpg";
 import ThreeImg from "./assets/images/three.jpg";
 import FourImg from "./assets/images/four.jpg";
+import DonationSection from "./components/DonationSection";
 
 class Banner extends React.Component {
   render() {
@@ -19,8 +20,8 @@ class Banner extends React.Component {
           <div className="relative h-96">
             <div className="h-full w-full bg-cover bg-bottom relative rounded-lg" style={{backgroundImage: `linear-gradient(to bottom, transparent, #44233B), url(${BannerImg})`}}>
               <div className="absolute bottom-0 w-full pb-5 text-center">
-                <div className="text-linen font-serif text-2xl font-bold">"இருளைப் பற்றி எனக்கு கவலையில்லை,</div>
-                <div className="text-linen font-serif text-2xl font-bold">ஏனென்றால் நீங்கள் வெளிச்சம்"</div>
+                <div className="text-linen font-serif text-2xl md:text-5xl font-bold">"இருளைப் பற்றி எனக்கு கவலையில்லை,</div>
+                <div className="text-linen font-serif text-2xl md:text-5xl font-bold">ஏனென்றால் நீங்கள் வெளிச்சம்"</div>
                 <div className="text-monalisa font-sans text-lg font-extrabold tracking-normal md:tracking-widest mt-3">- மனிதன்.</div>
               </div>
             </div>
@@ -103,7 +104,7 @@ class EventCard extends React.Component {
           <div className="ml-0 px-4 md:px-0 md:ml-16 text-monalisa text-xl font-semibold mt-2">{time}</div>
         </div>
         <div className="flex w-full md:w-1/6 justify-center md:justify-end items-center mb-5 md:mb-0">
-          <a href="#" className="mx-4 py-2 px-4 bg-vodoo hover:bg-monalisa text-monalisa hover:text-vodoo h-12 w-64 rounded-full text-xl font-bold text-center">தகவல்</a>
+          <a href="#" className="mx-4 py-2 px-4 bg-cinnabar hover:bg-vodoo text-white h-12 w-64 rounded-full text-xl font-bold text-center">தகவல்</a>
         </div>
       </div>
     )
@@ -125,7 +126,7 @@ class EventSection extends React.Component {
               <EventCard title="நான்காம் நாள் (அக்கினி சட்டி)" image={FourImg} date="21" month="பிப்" time="09:00 முதல் 16:30 வரை" />
             </div>
             <div className="flex flex-col justify-center items-center mt-4">
-              <a href="#" className="mx-4 py-2 px-4 bg-vodoo hover:bg-monalisa text-monalisa hover:text-vodoo h-12 w-64 rounded-full text-xl font-bold text-center">மேலும் நிகழ்வுகள்</a>
+              <a href="#" className="mx-4 py-3 px-4 bg-vodoo hover:bg-cinnabar text-white h-14 w-64 rounded-full text-xl font-bold text-center">மேலும் நிகழ்வுகள்</a>
             </div>
           </div>
         </div>
@@ -143,6 +144,7 @@ function App() {
       </div>
       <WelcomeSection />
       <EventSection />
+      <DonationSection />
     </div>
   );
 }
